@@ -16,9 +16,7 @@ setTimeout(SplashScreen.hideAsync, 5000);
 
 
 const ukulelePic = require('./images/ukulele.png');
-const ukuleleSong =  {
-  "file": "file:./music/ukulele.mp3",
-}
+const ukuleleSong =  require("./music/ukulele.mp3");
 
 
 export default class App extends Component {
@@ -61,9 +59,7 @@ export default class App extends Component {
 
   async loadAudio() {
     const playbackInstance = new Audio.Sound();
-    const source = {
-      uri: ukuleleSong.file
-    }
+    const source = ukuleleSong;
 		const status = {
 			shouldPlay: this.state.isPlaying,
 			volume: this.state.volume,
