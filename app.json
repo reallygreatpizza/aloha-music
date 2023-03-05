@@ -4,10 +4,10 @@
     "slug": "aloha-music",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./images/alohaIcon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./images/hawaii.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
